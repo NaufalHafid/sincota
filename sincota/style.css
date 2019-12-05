@@ -1,0 +1,65 @@
+body {
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    position: relative;
+    z-index: 1;
+}
+
+
+.navbar-brand {
+    font-family: viga;
+    font-size: 32px;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+
+.navbar-brand,
+.nav-link {
+    color: aliceblue !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #0B63dc;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+.card-text {
+    height: 50px;
+}
+
+
+
+.slide {
+    width: 100%;
+    min-height: 10px;
+
+}
+
+.carousel-inner {
+    height: 350px;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    text-decoration-style: none;
+}
+
+.jumbotron img {
+    width: 200px;
+    border: 5px solid #eaeaeaea;
+}
